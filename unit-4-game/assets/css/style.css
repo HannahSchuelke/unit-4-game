@@ -77,8 +77,13 @@ h1 {
     margin-bottom: 20px;
     margin-right: 200px;
 }
-.myCurrentGuess {
+.goalNumber {
     background-color: teal;
     font: white;
     margin-top: 10px;    
+}
+
+img { 
+    max-height: 150px;
+    max-width: 150px;
 }

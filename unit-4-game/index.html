@@ -29,15 +29,15 @@
         </div>
         <div class="row">
             <div class="col-sm-3">
-                <div class="numberToGuess">Number to guess:</div>
+                <div>Number to guess: <span id="goalNumber"></span></div>
             </div>
             <div class="winsLosses">
-                <p>Wins:</p>
-                <p>Losses:</p>
+                <p>Wins: <span id="totalWins">0</span></p>
+                <p>Losses: <span id="totalLosses">0</span></p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-2">
+        <div class="row crystalDomHolder">
+            <!-- <div class="col-md-2">
                 <img class="ruby" src="assets/images/ruby.png" alt="ruby" style="width:100%;">
             </div>
             <div class="col-md-2">
@@ -48,22 +48,13 @@
             </div>
             <div class="col-md-2">
                 <img src="assets/images/emerald.png" alt="emerald" style="width:100%">
-            </div>
+            </div> -->
         </div>
-        <!-- <div class="jewels">
-            <div class="button1"> </div>
-                <div class="button2"> </div>
-                    <div class="button3"></div>
-                        <div class="button4"></div>
-                       
-        </div>            -->
-
         <div class="row"></div>
-        <div class="myScore">My current score is:
-            <div class="myCurrentGuess">My current number is:</div>
+        <div>My current score is: <span id="myScore"></span>
+            <!-- <div>My current number is: <span id="currentNumber"></span></div> -->
         </div>
     </div>
 </body>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
-
 </html>
