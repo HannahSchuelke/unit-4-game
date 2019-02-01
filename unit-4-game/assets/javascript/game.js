@@ -12,8 +12,7 @@
     }
 
     // function to generate crystals
-    function generateCrystals(index) {
-        // console.log("generateCrystals(), index: " + index);     
+    function generateCrystals(index) {   
         var newDiv = $("<div>");
         // attaching images
         newDiv.attr({

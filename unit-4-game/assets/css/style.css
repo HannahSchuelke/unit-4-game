@@ -69,7 +69,7 @@ h1 {
     width: 200px;
     height: 100px;
 }
-.myScore { 
+.col-md-4 { 
     background-color: teal;
     font: white;
     padding: 30px;
@@ -77,10 +77,12 @@ h1 {
     margin-bottom: 20px;
     margin-right: 200px;
 }
-.goalNumber {
-    background-color: teal;
+.col-sm-3 {
+    background-color: lightgreen;
     font: white;
-    margin-top: 10px;    
+    margin: 10px;
+    padding: 30px; 
+    font-weight: bold;   
 }
 
 img { 
