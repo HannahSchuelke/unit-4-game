@@ -12,7 +12,7 @@
     }
 
     // function to generate crystals
-    function generateCrystals(index) {   
+    function generateCrystals(index) {
         var newDiv = $("<div>");
         // attaching images
         newDiv.attr({
@@ -80,6 +80,8 @@
     // calling function outside scope, in order to call immediatly
     startGame();
 })();
+
+
 
 
 // [2nd stab at it, if you'd like to torture yourself with my evolution]

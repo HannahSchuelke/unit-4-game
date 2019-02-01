@@ -1,36 +1,29 @@
 container {
     width: 1000px;
 }
-
 body {
     background: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX3856857.jpg");
     background-size: cover;
 }
-
 h1 {
     color: white;
     size: 20pt;    
 }
-
 .col-md-6 {
     background-color: fuchsia;
     padding: 10px;
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
 .col-md-12 {
     background-color: lightsalmon;
     font-weight: bold;
-    /* margin-top: 10px; */
 }
-
 .numberToGuess { 
     background-color: lightgreen;
     font: black; 
     padding:30px;
     margin-right: 400px;
-    float: left;
     display: inline-block;
     font-weight: bold;
     margin-bottom: 10px;
@@ -58,7 +51,6 @@ h1 {
     padding: 30px; 
     font-weight: bold;   
 }
-
 img { 
     max-height: 150px;
     max-width: 150px;
