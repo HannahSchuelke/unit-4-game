@@ -1,0 +1,78 @@
+container {
+    width: 1000px;
+}
+
+body {
+    background: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX3856857.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    size: 20pt;
+    /* text-align: center; */
+    /* padding: 10px; */
+    
+}
+
+.col-md-6 {
+    background-color: fuchsia;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.col-md-12 {
+    background-color: lightsalmon;
+    font-weight: bold;
+}
+
+.numberToGuess { 
+    background-color: lightgreen;
+    font: black; 
+    padding:50px;
+    margin-right: 400px;
+    float: left;
+    display: inline-block;
+}
+.winsLosses {
+    background-color: lightblue;
+    padding:30px;
+    float: center;
+    text-align: left;
+    font-weight: bold;
+    font: black;   
+    margin-right: 0px; 
+}
+.jewels { 
+    z-index: -1;
+}
+.button1 {
+    background:url(/assets/images/ruby.png); 
+    width: 200px;
+    height: 100px;
+}
+.button2 {
+    background:url(/assets/images/sapphire.png); 
+    width: 200px;
+    height: 100px;
+}
+.button3 {
+        background:url(/assets/images/yellowDiamond.png);
+        width: 200px;
+        height: 100px;
+}
+.button4  {
+    background:url(/assets/images/emerald.png);
+    width: 200px;
+    height: 100px;
+}
+.myScore { 
+    background-color: teal;
+    font: white;
+    /* padding: 30px; */
+}
+.myCurrentGuess {
+    background-color: teal;
+    font: white;
+    
+}
