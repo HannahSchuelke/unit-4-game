@@ -24,24 +24,27 @@ h1 {
 .col-md-12 {
     background-color: lightsalmon;
     font-weight: bold;
+    /* padding: 10px; */
 }
 
 .numberToGuess { 
     background-color: lightgreen;
     font: black; 
-    padding:50px;
+    padding:30px;
     margin-right: 400px;
     float: left;
     display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 .winsLosses {
     background-color: lightblue;
-    padding:30px;
-    float: center;
+    padding:25px;
+    /* float: right; */
     text-align: left;
     font-weight: bold;
     font: black;   
-    margin-right: 0px; 
+    /* margin-right:  */
 }
 .jewels { 
     z-index: -1;
@@ -69,10 +72,13 @@ h1 {
 .myScore { 
     background-color: teal;
     font: white;
-    /* padding: 30px; */
+    padding: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 200px;
 }
 .myCurrentGuess {
     background-color: teal;
     font: white;
-    
+    margin-top: 10px;    
 }
