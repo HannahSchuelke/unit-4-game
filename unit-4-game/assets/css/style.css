@@ -19,6 +19,7 @@ h1 {
     background-color: fuchsia;
     padding: 10px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .col-md-12 {
@@ -40,47 +41,23 @@ h1 {
 .winsLosses {
     background-color: lightblue;
     padding:25px;
-    /* float: right; */
     text-align: left;
     font-weight: bold;
     font: black;   
-    /* margin-right:  */
-}
-.jewels { 
-    z-index: -1;
-}
-.button1 {
-    background:url(/assets/images/ruby.png); 
-    width: 200px;
-    height: 100px;
-}
-.button2 {
-    background:url(/assets/images/sapphire.png); 
-    width: 200px;
-    height: 100px;
-}
-.button3 {
-        background:url(/assets/images/yellowDiamond.png);
-        width: 200px;
-        height: 100px;
-}
-.button4  {
-    background:url(/assets/images/emerald.png);
-    width: 200px;
-    height: 100px;
 }
 .col-md-4 { 
     background-color: teal;
     font: white;
-    padding: 30px;
+    padding: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     margin-right: 200px;
 }
-.col-sm-3 {
+.col-md-3 {
     background-color: lightgreen;
     font: white;
     margin: 10px;
+    margin-top: 0px;
     padding: 30px; 
     font-weight: bold;   
 }
@@ -88,4 +65,5 @@ h1 {
 img { 
     max-height: 150px;
     max-width: 150px;
+    padding-right: 20px;
 }
