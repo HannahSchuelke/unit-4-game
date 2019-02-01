@@ -54,9 +54,7 @@
 
         if (playerScore === goalNumber) {
             // player won game
-            // same functionality:
             totalWins++;
-            // totalWins = totalWins + 1;
             startGame();
         }
 
