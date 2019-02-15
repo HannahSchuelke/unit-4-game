@@ -6,6 +6,10 @@ A HTML/CSS/Javascript/Jquery project for the UMN Coding Bootcamp, Assignment 4.
 
 ![](unit-4-game/assets/images/crystalCollector.png)
 
+## Accessible at:
+
+ https://hannahschuelke.github.io/unit-4-game/
+
 ## Author
 
 Hannah Schuelke – hannah.r.schuelke@gmail.com
